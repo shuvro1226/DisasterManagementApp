@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <!-- Setting values in the default namespace affects API levels 7-13 -->
+        <item name="actionBarStyle">@style/MyStyledActionBar</item>
+        <item name="drawerArrowStyle">@style/MyDrawerArrowToggle</item>
+    </style>
+
+    <style name="MyStyledActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <!-- Setting values in the default namespace affects API levels 7-13 -->
+        <item name="background">@color/red</item>
+        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
+        <!--item name="actionMenuTextAppearance">@style/MyActionBarMenuText</item-->
+        <!--item name="actionMenuTextColor">@style/MyActionBarMenuText</item-->
+        <!--item name="actionOverflowButtonStyle">@style/MyActionButtonOverFlow</item-->
+    </style>
+
+    <style name="MyDrawerArrowToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/font_half_white</item>
+    </style>
+
+    <style name="MyActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/font_half_white</item>
+    </style>
+
+    <color name="red">#7d0900</color>
+    <color name="light_red">#a10b00</color>
+    <color name="font_half_white">#FFFFFF</color>
+    <color name="background">#cccccc</color>
+    <color name="text_color">#7a7a7a</color>
+
+    <!--style name="MyActionBarMenuText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textColor">@color/font_half_white</item>
+    </style-->
+
+    <!--style name="MyActionButtonOverFlow" parent="@style/Widget.AppCompat.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_search</item>
+    </style-->
+
+</resources>

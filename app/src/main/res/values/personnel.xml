@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="personnel_name">
+        <item>১। মোফাজ্জল হোসেন চৌধুরী মায়া বীর বিক্রম, এমপি</item>
+        <item>২। মো: আবু তাহের</item>
+        <item>৩। মো: গোলাম মোস্তফা</item>
+        <item>৪। এ.এস.এম. সহিদুল ইসলাম (মিলন)</item>
+        <item>৫। মো: শাহ্‌ কামাল</item>
+        <item>৬। </item>
+        <item>৭। মো: গোলাম মোস্তফা</item>
+        <item>৮। পার্থপ্রতিম দেব</item>
+        <item>৯। শামস্‌-ই-আরা বিনতে হুদা</item>
+        <item>১০। আলী রেজা মজিদ</item>
+        <item>১১। গৌতম কুমার ভট্টাচার্য</item>
+        <item>১২। তাহমিদ হাসনাত খান</item>
+        <item>১৩। সুলতানা সাঈদা</item>
+        <item>১৪। রতীশ সরকার রায়</item>
+        <item>১৫। মো: আব্দুল লতিফ সিদ্দিকি</item>
+        <item>১৬। তাসারফ হোসেন ফরাজী</item>
+        <item>১৭। মো: মাজেদুর রহমান</item>
+        <item>১৮। নাঈমা বেগম</item>
+        <item>১৯। মো: হাসানুজ্জামান</item>
+        <item>২০। মনিরুল হক</item>
+        <item>২১। মো: অলিদ বিন আসাদ</item>
+        <item>২২। মোহাম্মদ আব্দুল কাদের</item>
+        <item>২৩। মো: সহিদ উল্লা মিয়া</item>
+        <item>২৪। সত্যব্রত সাহা</item>
+        <item>২৫। মো: কামরুল হাসান</item>
+        <item>২৬। সালমা জাহান</item>
+        <item>২৭। মো: দলিল উদ্দিন</item>
+        <item>২৮। জুলেখা সুলতানা</item>
+        <item>২৯। মীর্জা আলী আশরাফ</item>
+        <item>৩০। অমিত কুমার বাউল</item>
+        <item>৩১। মো: আফজাল হোসেন</item>
+        <item>৩২। মো: নুরুল আমীন</item>
+        <item>৩৩। মোহাম্মদ মনিরুল ইসলাম</item>
+        <item>৩৪। ড. মো: আতিকুর রহমান</item>
+        <item>৩৫। মো: শাহজাহান</item>
+        <item>৩৬। </item>
+        <item>৩৭। মোঃ আলী আহসান</item>
+        <item>৩৮। মো: জাহিদুর রহমান</item>
+    </string-array>
+    <string-array name="personnel_rank">
+        <item>পদবিঃ মাননীয় মন্ত্রীি</item>
+        <item>পদবিঃ মন্ত্রীর একান্ত সচিব</item>
+        <item>পদবিঃ সিনিয়র তথ্য কর্মকর্তা</item>
+        <item>পদবিঃ মন্ত্রী মহোদয়ের সহকারী একান্ত সচিব</item>
+        <item>পদবিঃ ভারপ্রাপ্ত সচিব</item>
+        <item>পদবিঃ সচিবের একান্ত সচিব</item>
+        <item>পদবিঃ অতিরিক্ত সচিব (প্রশাসন)</item>
+        <item>পদবিঃ যুগ্ম-সচিব (প্রশাসন)</item>
+        <item>পদবিঃ উপ সচিব (প্রশাসন)</item>
+        <item>পদবিঃ উপ সচিব(সেবা)</item>
+        <item>পদবিঃ যুগ্ম-সচিব(বাজেট ও সমন্বয়)</item>
+        <item>পদবিঃ উপ সচিব(বাজেট)</item>
+        <item>পদবিঃ উপসচিব(অডিট)</item>
+        <item>পদবিঃ সি: ফিন্যান্স ও একাউন্স অফিসার</item>
+        <item>পদবিঃ হিসাব রক্ষণ অফিসার</item>
+        <item>পদবিঃ উপ-প্রধান পরিকল্পনা অধিশাখা</item>
+        <item>পদবিঃ সিনিয়র সহকারী প্রধান (পরিকল্পনা-১)</item>
+        <item>পদবিঃ সিনিয়র সহকারী প্রধান (পরিকল্পনা-২)</item>
+        <item>পদবিঃ সিনিয়র সহকারী প্রধান (পরিকল্পনা-৩)</item>
+        <item>পদবিঃ নির্বাহী প্রকৌশলী</item>
+        <item>পদবিঃ সিস্টেম এনালিস্ট</item>
+        <item>পদবিঃ সহকারী প্রোগ্রামার</item>
+        <item>পদবিঃ অতিরিক্ত সচিব(দুর্যোগ ব্যবস্থাপনা)</item>
+        <item>পদবিঃ যুগ্ম-সচিব(দুর্যোগ ব্যবস্থাপনা কর্মসূচী)</item>
+        <item>পদবিঃ উপ সচিব(দু:ব্য:ক-১)</item>
+        <item>পদবিঃ উপ-সচিব (ত্রাক-২)</item>
+        <item>পদবিঃ ভারপ্রাপ্ত কর্মকর্তা</item>
+        <item>পদবিঃ যুগ্ম-সচিব (দুর্যোগ ব্যবস্থাপনা প্রশাসন)</item>
+        <item>পদবিঃ সিনিয়র সহকারী সচিব (দু:ব্য: প্র:)</item>
+        <item>পদবিঃ যুগ্ম সচিব (ত্রাণ)</item>
+        <item>পদবিঃ উপসচিব (ত্রাণ কর্মসূচি-২)</item>
+        <item>পদবিঃ উপ সচিব (ত্রাণ কর্মসূচী প্রসাশন)</item>
+        <item>পদবিঃ সিঃ সহঃ সচিব,(ত্রাক-১)</item>
+        <item>পদবিঃ যুগ্ম-সচিব(ত্রাণ প্রসাশন)</item>
+        <item>পদবিঃ সহকারী সচিব</item>
+        <item>পদবিঃ যুগ্ম-সচিব শরণার্থী বিষয়ক সেল</item>
+        <item>পদবিঃ যুগ্ম সচিব</item>
+        <item>পদবিঃ যুগ্ম সচিব</item>
+    </string-array>
+    <string-array name="personnel_position">
+        <item>দপ্তরঃ দুর্যোগ ব্যবস্থাপনা ও ত্রাণ মন্ত্রণালয়</item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ প্রশাসন</item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ আইসিটি সেল</item>
+        <item>দপ্তরঃ আইসিটি সেল</item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+        <item>দপ্তরঃ </item>
+    </string-array>
+    <string-array name="personnel_contact_office">
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০০৭২</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০০৭৩</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০১৭৮</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪৫০০২</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০৮৭৭</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০৪৬৪</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০৭৪৪</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০১৩৩</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০৫৪২</item>
+        <item>ফোন (দপ্তর)ঃ </item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০৫৫৭</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০১৩৯</item>
+        <item>ফোন (দপ্তর)ঃ </item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৭১৬৫৭৬৩</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০০৫৬</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪৫১৭৬</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫১৪২২১</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৫০৯৩৩</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫১৫৮৯৯</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৫০২৪০</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৫২২৫৯</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৫২২৫৯</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০১৪৬</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০১৪৫</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০৩৪০</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০১৪৩</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪৫১১৫</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৭৪৪৯৬</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৭১৬১০৩১</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫১৫৮৮৪</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০১৪৩</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০০৫২</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৭১৬০১৭৯</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০০৯৫</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৭০০৪০</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪৫০৯১</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০৫৪৬</item>
+        <item>ফোন (দপ্তর)ঃ +৮৮ ০২ ৯৫৪০১৩৪</item>
+    </string-array>
+    <string-array name="personnel_contact_home">
+        <item>ফোন (বাসা) </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ +৮৮ ০২ ৮০৩২৫৩৩</item>
+        <item>ফোন (বাসা)ঃ +৮৮ ০২ ৯৩৪৯০৫৩</item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ +৮৮ ০২ ৭৯১১৯৫৬</item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+        <item>ফোন (বাসা)ঃ </item>
+    </string-array>
+    <string-array name="personnel_mobile">
+        <item>মোবাইলঃ </item>
+        <item>মোবাইলঃ +৮৮ ০১৭১১ ৪৮৫৭৬৮</item>
+        <item>মোবাইলঃ +৮৮ ০১৯৪৩৪৪৬৩২৩</item>
+        <item>মোবাইলঃ +৮৮ ০১৯১১০০৯০৪১</item>
+        <item>মোবাইলঃ </item>
+        <item>মোবাইলঃ </item>
+        <item>মোবাইলঃ </item>
+        <item>মোবাইলঃ +৮৮ ০১৭১১৪৩৪১০৫</item>
+        <item>মোবাইলঃ +৮৮ ০১৫৫২৪৫০০৪০</item>
+        <item>মোবাইলঃ +৮৮ ০১৭১৬১৮৭৪৪৩</item>
+        <item>মোবাইলঃ +৮৮ ০১৭১৫০১৮৮১৫</item>
+        <item>মোবাইলঃ +৮৮ ০১৭২০১১১১১০১</item>
+        <item>মোবাইলঃ +৮৮ ০১৭১৫১১১৭৩৬১</item>
+        <item>মোবাইলঃ </item>
+        <item>মোবাইলঃ </item>
+        <item>মোবাইলঃ +৮৮ ০১৭৩৩৯৫৪৭৪৩</item>
+        <item>মোবাইলঃ +৮৮ ০১৭১২৯৮০৪১৩</item>
+        <item>মোবাইলঃ +৮৮ ০১৭৪১২২৯৪৫৩</item>
+        <item>মোবাইলঃ +৮৮ ০১৭১২৬২০৭৪৪</item>
+        <item>মোবাইলঃ +৮৮ ০১৯১৪৯৪৮৯৪৮</item>
+        <item>মোবাইলঃ +৮৮ ০১৫৫২৩৫২২৫৬</item>
+        <item>মোবাইলঃ +৮৮ ০১৭৪০৫৫৫৬৯৮</item>
+        <item>মোবাইলঃ +৮৮ ০১৭১৬৫৮১২০৭</item>
+        <item>মোবাইলঃ +৮৮ ০১৯৩৭১৬৩৫৮২</item>
+        <item>মোবাইলঃ +৮৮ ০১৯৪৩৮৩৭২৮০</item>
+        <item>মোবাইলঃ +৮৮ ০১৭১৫১৮০১৯২</item>
+        <item>মোবাইলঃ +৮৮ ০১৭৫৫৫৫০০৬৭</item>
+        <item>মোবাইলঃ +৮৮ ০১৭২০৬৭৬২৭৭</item>
+        <item>মোবাইলঃ </item>
+        <item>মোবাইলঃ +৮৮ ০১৭১৫০২৮৮২৬</item>
+        <item>মোবাইলঃ +৮৮ ০১৯১৪ ৩০৩৭০৬</item>
+        <item>মোবাইলঃ +৮৮ ০১৫৫২৪৮১৬২১</item>
+        <item>মোবাইলঃ +৮৮ ০১৭১১৯৬৫৭৯৭</item>
+        <item>মোবাইলঃ </item>
+        <item>মোবাইলঃ +৮৮ ০১৮১৯১৪২৯৫৫</item>
+        <item>মোবাইলঃ +৮৮ ০১৭১৫০২৮৮২৬</item>
+        <item>মোবাইলঃ +৮৮ ০১৭১২০২০৮৪৮</item>
+        <item>মোবাইলঃ +৮৮ ০১৭১১১৫৩১২৩</item>
+    </string-array>
+    <string-array name="personnel_fax">
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৩৫০০২১</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৩৫০০২১</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৩৫০০২১</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৩৫০০২১</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ </item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৯১৪৮</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ </item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+        <item>ফ্যাক্সঃ +৮৮ ০২ ৯৫৪৫৪০৫</item>
+    </string-array>
+    <string-array name="personnel_email">
+        <item>ই-মেইলঃ minister@modmr.gov.bd</item>
+        <item>ই-মেইলঃ taher_n59@yahoo.com</item>
+        <item>ই-মেইলঃ faruque_dewan@yahoo.com</item>
+        <item>ই-মেইলঃ apstominister@modmr.gov.bd</item>
+        <item>ই-মেইলঃ secretary@modmr.gov.bd</item>
+        <item>ই-মেইলঃ pstosecretary@modmr.gov.bd</item>
+        <item>ই-মেইলঃ addlsecretary@modmr.gov.bd</item>
+        <item>ই-মেইলঃ jsadmin@modmr.gov.bd</item>
+        <item>ই-মেইলঃ dsadmin@modmr.gov.bd</item>
+        <item>ই-মেইলঃ dss@modmr.gov.bd</item>
+        <item>ই-মেইলঃ jsbudget@modmr.gov.bd</item>
+        <item>ই-মেইলঃ dsbudget@modmr.gov.bd</item>
+        <item>ই-মেইলঃ dsaudit@modmr.gov.bd</item>
+        <item>ই-মেইলঃ sfao@modmr.gov.bd</item>
+        <item>ই-মেইলঃ accounts@modmr.gov.bd</item>
+        <item>ই-মেইলঃ dcplan@modmr.gov.bd</item>
+        <item>ই-মেইলঃ Sac1plan@modmr.gov.bd</item>
+        <item>ই-মেইলঃ Sac2plan@modmr.gov.bd</item>
+        <item>ই-মেইলঃ Sac3plan@modmr.gov.bd</item>
+        <item>ই-মেইলঃ eeplan@modmr.gov.bd</item>
+        <item>ই-মেইলঃ sa@modmr.gov.bd</item>
+        <item>ই-মেইলঃ ap@modmr.gov.bd</item>
+        <item>ই-মেইলঃ addlsecdm@modmr.gov.bd</item>
+        <item>ই-মেইলঃ jsdmprog@modmr.gov.bd</item>
+        <item>ই-মেইলঃ dsdmprog@modmr.gov.bd</item>
+        <item>ই-মেইলঃ dsreliefprog2@modmr.gov.bd</item>
+        <item>ই-মেইলঃ ndrcc@modmr.gov.bd</item>
+        <item>ই-মেইলঃ jsdmadmin@modmr.gov.bd</item>
+        <item>ই-মেইলঃ sasdma@modmr.gov.bd</item>
+        <item>ই-মেইলঃ jsrelief@modmr.gov.bd</item>
+        <item>ই-মেইলঃ dsreliefprog2@modmr.gov.bd</item>
+        <item>ই-মেইলঃ dsreliefprog@modmr.gov.bd</item>
+        <item>ই-মেইলঃ sasreliefprog1@modmr.gov.bd</item>
+        <item>ই-মেইলঃ jsreliefadmin@modmr.gov.bd</item>
+        <item>ই-মেইলঃ sara@modmr.gov.bd</item>
+        <item>ই-মেইলঃ jsrohingacell@modmr.gov.bd</item>
+        <item>ই-মেইলঃ </item>
+        <item>ই-মেইলঃ dsbudget@modmr.gov.bd</item>
+    </string-array>
+</resources>

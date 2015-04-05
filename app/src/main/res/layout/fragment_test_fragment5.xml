@@ -1,0 +1,168 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.gov.dmrd.disastermanagement.TestFragment5">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nirdeshika"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/light_red"
+            android:textSize="18dp"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/layout_bg">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/pdf_icon"
+                android:background="@drawable/textview_bg">
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/humanitarian_help"
+                android:gravity="center_vertical"
+                android:textColor="@color/text_color"
+                android:paddingLeft="20dp"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sohayota"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/light_red"
+            android:textSize="18dp"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/layout_bg">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/pdf_icon"
+                android:background="@drawable/textview_bg">
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/warm_clothing_help"
+                android:gravity="center_vertical"
+                android:textColor="@color/text_color"
+                android:paddingLeft="20dp"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vgf_given"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/light_red"
+            android:textSize="18dp"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/layout_bg">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/pdf_icon"
+                android:background="@drawable/textview_bg">
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sharok_1"
+                android:gravity="center_vertical"
+                android:textColor="@color/text_color"
+                android:paddingLeft="20dp"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/layout_bg">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/pdf_icon"
+                android:background="@drawable/textview_bg">
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sharok_2"
+                android:gravity="center_vertical"
+                android:textColor="@color/text_color"
+                android:paddingLeft="20dp"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

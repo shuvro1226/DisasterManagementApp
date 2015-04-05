@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="programme_guideline">কর্মসূচি নির্দেশিকা সমূহ</string>
+    <string name="tr_desc">গ্রামীণ অবকাঠামো রক্ষণাবেক্ষণ (টিআর-খাদ্য শস্য/নগদ টাকা) </string>
+    <string name="tr_link" formatted="false">http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/files/cd235cf2_852d_4fb3_9874_9805d5ea976e/TR%20implementation%20Guideline%202014.pdf</string>
+    <string name="kabikha_desc">গ্রামীণ অবকাঠামো সংস্কার (কাবিখা-খাদ্য শস্য/নগদ টাকা) </string>
+    <string name="kabikha_link" formatted="false">http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/files/efcd85a7_59f2_4b22_8f9b_7e6397d83e17/FFW%20Guideline%202014.pdf</string>
+    <string name="donations_header">টিআর/কাবিখা/জিআর/কাবিটা/ঢেউটিন বরাদ্দ (অর্থ বছর ২০১৪-১৫)</string>
+    <string-array name="sharok_no">
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.১৪.০২১.১৪-০২)\nবিষয়ঃ কাবিখা/টিআর প্রকল্প জেলা কর্ণধার কমিটিতে অনুমোদনের সময়সীমা বৃদ্ধি</item>
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.২২.০০৫.১৪-২৩৬)\nবিষয়ঃ সোলার প্যানেল ও বায়োগ্যাস প্রকল্প বাস্তবায়ন সংক্রান্ত</item>
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.১৪.০২১.১৪-২১৯)\nবিষয়ঃ কাবিখা/টিআর প্রকল্প জেলা কর্ণধার কমিটিতে অনুমোদনের সময়সীমা বৃদ্ধি</item>
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.২২.০০৫.১৪-১৯৬)\nবিষয়ঃ টিআর কর্মসূচী-তে সোলার প্যানেল ও বায়োগ্যাস প্রকল্প অন্তর্ভূক্তি</item>
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.২২.০০৫.১৪-১৯৫)\nবিষয়ঃ কাবিখা কর্মসূচী-তে সোলার প্যানেল ও বায়োগ্যাস প্রকল্প অন্তর্ভূক্তি</item>
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.২২.০০১.১৩-১৯৩)\nবিষয়ঃ কাবিখা ও টিআর কর্মসূচি নির্দেশিকার ২(ক) অনুচ্ছেদ সংশোধন</item>
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.১৪.০২১.১৪-১৯০)\nবিষয়ঃ প্রকল্প জমাদানের সময়সীমা বৃদ্ধি</item>
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.১৪.০১৭.১৪-১৮৬)\nবিষয়ঃ টিআর</item>
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.১৪.০১৭.১৪-১৮৫)\nবিষয়ঃ টিআর</item>
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.১৪.০১৭.১৪-১৮৪)\nবিষয়ঃ টিআর</item>
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.১৪.০১৭.১৪-১৮৩)\nবিষয়ঃ টিআর</item>
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.১৪.০১৬.১৪-১৮২)\nবিষয়ঃ কাবিখা</item>
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.১৪.০১৬.১৪-১৮১)\nবিষয়ঃ কাবিখা</item>
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.১৪.০১৬.১৪-১৮০)\nবিষয়ঃ কাবিখা</item>
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.১৪.০১৬.১৪-১৬৩)\nবিষয়ঃ সোলার প্যানেল/বায়োগ্যাস প্রকল্প</item>
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.১৪.০১৭.১৪-১৬২)\nবিষয়ঃ টিআর</item>
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.১৪.০১৭.১৪-১৬১)\nবিষয়ঃ টিআর</item>
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.১৪.০১৬.১৪-১৬০)\nবিষয়ঃ কাবিখা</item>
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.১৪.০১৬.১৪-১৫৮)\nবিষয়ঃ কাবিখা</item>
+        <item>স্বারক নং (৫১.০০.০০০০.৪২২.১৪.০১৬.১৪-১৫৯)\nবিষয়ঃ কাবিখা</item>
+    </string-array>
+    <string-array name="relief_urls" formatted="false">
+        <item>http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/page/ef1cfaee_8b99_4d0a_97b3_516b398e6b78/02.pdf</item>
+        <item>https://drive.google.com/file/d/0B5C7CK0fyNrMcEFQRTBYZkkwSjRkS2swcEw5M2NWcEN6OEpJ/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0B5C7CK0fyNrMcEFQRTBYZkkwSjRkS2swcEw5M2NWcEN6OEpJ/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0B5C7CK0fyNrMQ05kdUpSRmpGbEZtZjRvbjhHZ25pOURqWWpn/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0B5C7CK0fyNrMcGM0a2xMNFREdUlGVEFvalQtX0VvRVBGQ0ZV/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0B5C7CK0fyNrMN0ZnaEtEaGlaWkRFWl9JcnZibTJOQ0x3eHZV/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0B5C7CK0fyNrMaVdPOXVEMXBjY2JoVHJlTTcwT1UwMnhFdmRn/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0B5C7CK0fyNrMTDYzVk5GWEctSS14a2Nrc09TWEdSa3hJMU1r/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0B5C7CK0fyNrMZ3hPaVlBbjY4QnRHYUZRU3RuY1lYNjM5VnpB/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0B5C7CK0fyNrMTnBSQXVYYVdOV190b1B0WGgxOTZBU1BVcUFr/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0B5C7CK0fyNrMMXRTWXkxNDhQdGpkZnNsWnJXTFBzeDJ6ODhr/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0B5C7CK0fyNrMeG15ODhCNzNPMk5PX0lqMHdac05oUXBGclY0/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0B5C7CK0fyNrMdTZWeGh5eEhXYnFvZmptRTRHeHZRV0EwdWxV/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0B5C7CK0fyNrMeDkxaG1JcGExNDFhTF81dVoyZlNHZ1MwUFQw/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0B5C7CK0fyNrMeGxKTkdvT0RtdjdNY2NJenNmNVRSeWY5VGJN/view?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0B5C7CK0fyNrMVG5Qa294aUNuVHlIbWg1U1VOeVB0b1R2OVpr/edit?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0B5C7CK0fyNrMc1JNSFVYVlZLMDgwQU4wWmxlUjg0QzNyTWFn/edit?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0B5C7CK0fyNrMNXdmVnk2dVY0QlV6UjhpOGFjc2hhZURhZHlz/edit?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0B5C7CK0fyNrMbVltaXVGRW5qTjM1cmEyWVI2cW1fREFZMnR3/edit?usp=sharing</item>
+        <item>https://drive.google.com/file/d/0B5C7CK0fyNrMcVJJeEpYUDZyM0g5N0FDR25IMGprWjJlWE1n/edit?usp=sharing</item>
+    </string-array>
+</resources>

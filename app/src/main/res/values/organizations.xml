@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="organizations">সংস্থাসমূহ</string>
+    <string name="functions">কর্মসূচিসমূহ</string>
+    <string name="ddm">দুর্যোগ ব্যবস্থাপনা অধিদপ্তর\nhttp://www.ddm.gov.bd/</string>
+    <string name="volutary">জাতীয় দুর্যোগ স্বেচ্ছাসেবক সংগঠন (প্রস্তাবিত)</string>
+    <string name="cdmp">The Comprehensive Disaster Management Programme (Phase II)\nhttp://www.cdmp.org.bd/</string>
+    <string name="cpp">ঘূর্ণিঝড় প্রস্তুতি কর্মসূচি (সিপিপি)\nhttp://www.cpp.gov.bd/</string>
+</resources>

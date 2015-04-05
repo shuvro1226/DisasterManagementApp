@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nirdeshika">নির্দেশিকা</string>
+    <string name="sohayota">সহায়তা</string>
+    <string name="humanitarian_help">মানবিক সহায়তা কর্মসূচী বাস্তবায়ন নির্দেশিকা</string>
+    <string name="warm_clothing_help">শীত বস্ত্র সহায়তা (জি আর)</string>
+    <string name="vgf_given">ভিজিএফ বরাদ্দ (অর্থ বছর ২০১৪-১৫)</string>
+    <string name="sharok_1">স্মারক নং (৫১.০০.০০০০.৪২১.১৪.০২৪.১৩-৫৪৫)</string>
+    <string name="sharok_2">স্মারক নং (৫১.০০.০০০০.৪২১.১৪.০২৪.১৩-৫৪৬)</string>
+</resources>

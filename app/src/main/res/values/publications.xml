@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="publications">
+        <item>Hyogo Framework for Action (HFA) Progress Monitoring and Review Through a Multi Stakeholder Engagement Process 2013 – 2015</item>
+        <item>National progress report on the implementation of the Hyogo Framework for Action (2011-2013)</item>
+        <item>পাওয়ার পয়েন্ট উপস্থাপনাঃ মাননীয় প্রধানমন্ত্রীর দুর্যোগ ব্যবস্থাপনা ও ত্রাণ মন্ত্রণালয় পরিদর্শন</item>
+        <item>সাইক্লোন শেল্টার নির্মাণ, সংরক্ষণ ও ব্যবস্থাপনা পরিকল্পনা</item>
+        <item>পাওয়ার পয়েন্ট উপস্থাপনাঃ আন্তর্জাতিক দুর্যোগ প্রশমন দিবস-২০১৪ উদযাপন</item>
+        <item>বন্যা ২০০৭</item>
+        <item>সিডর</item>
+        <item>রানা প্লাজার উপর রিপোর্ট</item>
+        <item>বাংলাদেশে ঘূর্ণিঝড়ের জরুরি প্রস্তুতি পরিকল্পনা</item>
+        <item>দুর্যোগ কোষ</item>
+        <item>National Progress Report on the Implementation of the Hyogo Framework for Action (2009-2011)</item>
+        <item>গণ দুর্যোগ বার্তা</item>
+        <item>Flood Booklet</item>
+        <item>দূর্যোগ ব্যবস্থাপনা ২০১০-২০১৫ জন্য জাতীয় পরিকল্পনা</item>
+        <item>Standing Orders on Disaster</item>
+        <item>Report of the Technical Advisory Mission to Bangladesh 19 – 23 June 2010</item>
+    </string-array>
+    <string-array name="publication_urls" formatted="false">
+        <item>http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/publications/625bf856_2910_4355_a049_1ad00bd6de39/bgd_HFA%20Monitoring%20and%20Review%20Through%20a%20Multi%20Stakeholder%20Engagement%20Process(MoDMR%20Comments)%20(3).pdf</item>
+        <item>http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/publications/c2840e71_470b_419e_8e19_b2b8aaa63b04/bgd_NationalHFAprogress_2011-13.pdf</item>
+        <item></item>
+        <item>http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/publications/73ed76b0_385a_438c_bf25_b9bc2acca079/Cyclone%20Shelter%20Construction%20Maintenance%20and%20Management%20Policy%202011%20(1).pdf</item>
+        <item></item>
+        <item>http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/publications/8e731b3d_479f_4ea1_b1c3_f3af17d263b4/Executive%20Summary-Flood%20Report.pdf</item>
+        <item>http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/publications/83ccdd3b_1e9f_4e43_9583_cafeed377d73/AssessmentReport_CycloneSidr_Bangladesh_2008(Worldbank).pdf</item>
+        <item>http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/publications/2071de3f_f419_40ac_bc03_feff57c60f34/Report%20on%20Rana%20Plaza%20incident.compressed.pdf</item>
+        <item>http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/publications/ba259066_25b5_40ef_9ac7_24e067f2b901/Emergency%20Preparedness%20Plan_Cyclone_DDM%202014(1).pdf</item>
+        <item>http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/publications/b4c9624b_34e7_4c5b_ade5_1501ca460fbd/durjogkosh-.pdf</item>
+        <item>http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/publications/f8eba3dc_25ca_452a_a744_5ae4984190d0/18831_bgd_NationalHFAprogress_2009_11-.pdf</item>
+        <item>http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/publications/e1250745_05e2_45e7_bb4d_7313b82907e5/gonodurjokbarta.pdf</item>
+        <item>http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/publications/646e7dbc_f6ae_42fe_a7ef_36794c2f64ac/floodbooklet.pdf</item>
+        <item>http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/publications/b8fd567a_3672_416a_88ad_373dea1a2518/Nataional_Plan_for_Disaster__2010_2015__Final_Version-.pdf</item>
+        <item>http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/publications/07ba1ded_21ce_4f1c_8f2a_1ecca5980703/SOD-.pdf</item>
+        <item>http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/publications/c43a5637_2454_4e52_a3b4_09dc1a922b7b/unspidertamreprot.pdf</item>
+    </string-array>
+</resources>

@@ -1,0 +1,74 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gov.dmrd.disastermanagement.TestFragment1">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/textview_bg"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/minister"/>
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/minister_name"
+        android:gravity="center_horizontal"
+        android:textColor="@color/font_half_white"
+        android:padding="20dp"
+        android:background="@color/light_red"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/minister_position"
+        android:gravity="center_horizontal"
+        android:textColor="@color/font_half_white"
+        android:padding="20dp"
+        android:background="@color/light_red"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:text="@string/minister_details"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:background="@drawable/layout_bg"
+        android:textColor="@color/text_color" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/minister_desc"
+        android:gravity="center_horizontal"
+        android:background="@color/light_red"
+        android:textColor="@color/font_half_white"
+        android:padding="20dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/minister_info"
+        android:layout_margin="20dp"
+        android:padding="20dp"
+        android:textSize="14dp"
+        android:background="@drawable/layout_bg"
+        android:textColor="@color/text_color" />
+
+</LinearLayout>
+</ScrollView>
