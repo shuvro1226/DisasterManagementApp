@@ -13,6 +13,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
@@ -22,6 +23,7 @@ public class MainActivity extends ActionBarActivity implements TestFragment0.OnF
         , TestFragment4.OnFragmentInteractionListener, TestFragment5.OnFragmentInteractionListener, TestFragment6.OnFragmentInteractionListener, TestFragment7.OnFragmentInteractionListener, TestFragment8.OnFragmentInteractionListener
         , TestFragment9.OnFragmentInteractionListener, PDFFragment.OnFragmentInteractionListener, AboutFragment.OnFragmentInteractionListener
 {
+    public int current_position;
     String[] menu;
     DrawerLayout dLayout;
     ListView dList;
@@ -34,14 +36,20 @@ public class MainActivity extends ActionBarActivity implements TestFragment0.OnF
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         getSupportActionBar().setTitle(R.string.app_name);
         getSupportActionBar().setLogo(R.drawable.ic_launcher);
         getSupportActionBar().setDisplayUseLogoEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         menu = getResources().getStringArray(R.array.list_items);
         dLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        dList = (ListView) findViewById(R.id.left_drawer);
+        adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,menu);
+        dList.setAdapter(adapter);
+
         drawerToggle = new ActionBarDrawerToggle(this, dLayout, R.string.drawer_open, R.string.drawer_close)
         {
             @Override
@@ -55,14 +63,12 @@ public class MainActivity extends ActionBarActivity implements TestFragment0.OnF
             }
         };
         dLayout.setDrawerListener(drawerToggle);
-        dList = (ListView) findViewById(R.id.left_drawer);
-        adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,menu);
-        dList.setAdapter(adapter);
         dList.setOnItemClickListener(new OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> arg0, View v, int position, long id) {
-                dLayout.closeDrawers();
+                v.setSelected(true);
                 dList.setSelector(R.color.red);
+                current_position = position;
                 fragmentManager = getFragmentManager();
                 if (position == 0) {
                     myFragment = new TestFragment0();
@@ -92,6 +98,8 @@ public class MainActivity extends ActionBarActivity implements TestFragment0.OnF
                 fragmentManager.popBackStack();
                 fragmentManager.beginTransaction().replace(R.id.content_frame, myFragment).addToBackStack(fragmentName).commit();
                 getSupportActionBar().setTitle((String) arg0.getItemAtPosition(position));
+                dLayout.closeDrawers();
+                adapter.notifyDataSetChanged();
             }
         });
         drawerToggle.syncState();
@@ -150,4 +158,5 @@ public class MainActivity extends ActionBarActivity implements TestFragment0.OnF
         alert.show();
 
     }
+
 }

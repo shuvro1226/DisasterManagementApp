@@ -100,7 +100,7 @@ public class TestFragment7 extends Fragment {
             TextView tv1 = new TextView(container.getContext());
             tv1.setText(Html.fromHtml(headlines[i]));
             tv1.setTextColor(getResources().getColor(R.color.text_color));
-            tv1.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
+            tv1.setTextSize(TypedValue.COMPLEX_UNIT_SP, 22);
             //tv1.setPadding(12,0,0,0);
             LinearLayout.LayoutParams params1 = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT,LinearLayout.LayoutParams.WRAP_CONTENT);
             params1.setMargins(0,0,margin,0);

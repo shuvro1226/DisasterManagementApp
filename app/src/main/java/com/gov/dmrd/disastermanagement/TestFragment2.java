@@ -143,7 +143,7 @@ public class TestFragment2 extends Fragment {
             TextView tv1 = new TextView(container.getContext());
             tv1.setText(Html.fromHtml(ministry_structure[i]));
             tv1.setTextColor(getResources().getColor(R.color.text_color));
-            tv1.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
+            tv1.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
             ll.addView(tv1);
         }
         return view;

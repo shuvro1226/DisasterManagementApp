@@ -137,7 +137,7 @@ public class TestFragment4 extends Fragment {
             TextView tv1 = new TextView(container.getContext());
             tv1.setText(sharok[i]);
             tv1.setTextColor(getResources().getColor(R.color.text_color));
-            tv1.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 16);
+            tv1.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
             innerLayout.addView(tv1);
             ll.addView(innerLayout);
         }
