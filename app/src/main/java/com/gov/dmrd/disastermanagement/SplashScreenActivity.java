@@ -5,34 +5,47 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.Window;
+import android.widget.ImageView;
 
 public class SplashScreenActivity extends Activity {
-	
-	private static int SPLASH_TIME_OUT = 3000;
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.splash_screen);
 
-        new Handler().postDelayed(new Runnable() {
+    ImageView mImageView;
 
-                        /*
-                         * Showing splash screen with a timer. This will be useful when you
-                         * want to show case your app logo / company
-                         */
+    private static int SPLASH_TIME_OUT = 2000;
+    private Handler myHandler = new Handler();
+    private Runnable runnable = new Runnable() {
 
-            @Override
-            public void run() {
-                // This method will be executed once the timer is over
-                // Start your app main activity
-                Intent intent = new Intent(SplashScreenActivity.this,
-                        MainActivity.class);
-                startActivity(intent);
-                // close this activity
-                finish();
-            }
-        }, SPLASH_TIME_OUT);
-	}
+        public void run() {
+            Intent intent = new Intent(SplashScreenActivity.this, MainActivity.class);
+            startActivity(intent);
+            finish();
+        }
+    };
+
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.splash_screen);
+        mImageView = (ImageView) findViewById(R.id.imageView1);
+    }
+    @Override
+    public void onBackPressed() {
+
+    }
+
+    @Override
+    protected void onResume() {
+        myHandler.postDelayed(runnable, SPLASH_TIME_OUT);
+        super.onResume();
+    }
+
+    @Override
+    protected void onPause() {
+        myHandler.removeCallbacks(runnable);
+        super.onPause();
+    }
 
 }

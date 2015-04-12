@@ -47,7 +47,8 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:choiceMode="singleChoice"
-        android:divider="@android:color/transparent"
+        android:divider="@color/text_color"
         android:dividerHeight="0dp"
-        android:background="@drawable/listview_customizer"/>
+        android:listSelector="@drawable/list_selector"
+        android:background="@color/font_half_white"/>
 </android.support.v4.widget.DrawerLayout>
