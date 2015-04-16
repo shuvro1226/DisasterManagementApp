@@ -1,4 +1,4 @@
-package com.gov.dmrd.disastermanagement;
+package com.eatl.dmrd.disastermanagement;
 
 import android.content.Context;
 import android.graphics.ColorFilter;
@@ -11,6 +11,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.eatl.dmrd.disastermanagement.R;
 
 import java.util.ArrayList;
 

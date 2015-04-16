@@ -1,4 +1,4 @@
-package com.gov.dmrd.disastermanagement.model;
+package com.eatl.dmrd.disastermanagement.model;
 
 public class NavDrawerItem {
 	

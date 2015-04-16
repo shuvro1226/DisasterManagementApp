@@ -1,13 +1,15 @@
-package com.gov.dmrd.disastermanagement;
+package com.eatl.dmrd.disastermanagement;
 
-import com.gov.dmrd.disastermanagement.adapter.NavDrawerListAdapter;
-import com.gov.dmrd.disastermanagement.model.NavDrawerItem;
+import com.eatl.dmrd.disastermanagement.adapter.NavDrawerListAdapter;
+import com.eatl.dmrd.disastermanagement.R;
+import com.eatl.dmrd.disastermanagement.model.NavDrawerItem;
 
 import java.util.ArrayList;
 
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
@@ -17,7 +19,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.widget.DrawerLayout;
-import android.text.Html;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -26,7 +27,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-public class MainActivity extends Activity implements TestFragment0.OnFragmentInteractionListener, TestFragment1.OnFragmentInteractionListener, TestFragment2.OnFragmentInteractionListener, TestFragment3.OnFragmentInteractionListener, TestFragment4.OnFragmentInteractionListener, MapFragment.OnFragmentInteractionListener,
+public class MainActivity extends Activity implements TestFragment0.OnFragmentInteractionListener, TestFragment1.OnFragmentInteractionListener, TestFragment2.OnFragmentInteractionListener, TestFragment3.OnFragmentInteractionListener, TestFragment4.OnFragmentInteractionListener,
         TestFragment5.OnFragmentInteractionListener, TestFragment6.OnFragmentInteractionListener, TestFragment7.OnFragmentInteractionListener, TestFragment8.OnFragmentInteractionListener, TestFragment9.OnFragmentInteractionListener, AboutFragment.OnFragmentInteractionListener, PDFFragment.OnFragmentInteractionListener {
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
@@ -94,7 +95,7 @@ public class MainActivity extends Activity implements TestFragment0.OnFragmentIn
         navDrawerItems.add(new NavDrawerItem(navMenuTitles[9], navMenuIcons.getResourceId(9, -1)));
 
         navDrawerItems.add(new NavDrawerItem(navMenuTitles[10], navMenuIcons.getResourceId(10, -1)));
-        navDrawerItems.add(new NavDrawerItem(navMenuTitles[11], navMenuIcons.getResourceId(11, -1)));
+        //navDrawerItems.add(new NavDrawerItem(navMenuTitles[11], navMenuIcons.getResourceId(11, -1)));
 
 
         // Recycle the typed array
@@ -149,11 +150,11 @@ public class MainActivity extends Activity implements TestFragment0.OnFragmentIn
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
+    //@Override
+    //public boolean onCreateOptionsMenu(Menu menu) {
+    //    getMenuInflater().inflate(R.menu.main, menu);
+    //    return true;
+    //}
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -176,8 +177,8 @@ public class MainActivity extends Activity implements TestFragment0.OnFragmentIn
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
         // if nav drawer is opened, hide the action items
-        boolean drawerOpen = mDrawerLayout.isDrawerOpen(mDrawerList);
-        menu.findItem(R.id.action_settings).setVisible(!drawerOpen);
+        //boolean drawerOpen = mDrawerLayout.isDrawerOpen(mDrawerList);
+        //menu.findItem(R.id.action_settings).setVisible(!drawerOpen);
         return super.onPrepareOptionsMenu(menu);
     }
 
@@ -218,17 +219,16 @@ public class MainActivity extends Activity implements TestFragment0.OnFragmentIn
             case 9:
                 fragment = new TestFragment9();
                 break;
+            //case 10:
+            //    fragment = new MyMapFragment();
+            //    break;
             case 10:
-                fragment = new MapFragment();
-                break;
-            case 11:
                 fragment = new AboutFragment();
                 break;
 
             default:
                 break;
         }
-
         if (fragment != null) {
             FragmentManager fragmentManager = getFragmentManager();
             fragmentManager.beginTransaction()

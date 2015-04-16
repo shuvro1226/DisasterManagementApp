@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:id="@+id/publications_layout"
-        tools:context="com.gov.dmrd.disastermanagement.TestFragment7">
+        tools:context="com.eatl.dmrd.disastermanagement.TestFragment7">
 
     </LinearLayout>
 </ScrollView>

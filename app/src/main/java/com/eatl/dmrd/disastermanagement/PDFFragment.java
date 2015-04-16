@@ -1,23 +1,29 @@
-package com.gov.dmrd.disastermanagement;
+package com.eatl.dmrd.disastermanagement;
 
 import android.app.Activity;
+import android.app.Fragment;
+import android.app.FragmentManager;
 import android.net.Uri;
 import android.os.Bundle;
-import android.app.Fragment;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebView;
+import android.widget.Button;
+
+import com.eatl.dmrd.disastermanagement.R;
 
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link AboutFragment.OnFragmentInteractionListener} interface
+ * {@link PDFFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link AboutFragment#newInstance} factory method to
+ * Use the {@link PDFFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class AboutFragment extends Fragment {
+public class PDFFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -27,6 +33,9 @@ public class AboutFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
+    Button close;
+    FragmentManager manager;
+
     private OnFragmentInteractionListener mListener;
 
     /**
@@ -35,11 +44,11 @@ public class AboutFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment AboutFragment.
+     * @return A new instance of fragment PDFFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static AboutFragment newInstance(String param1, String param2) {
-        AboutFragment fragment = new AboutFragment();
+    public static PDFFragment newInstance(String param1, String param2) {
+        PDFFragment fragment = new PDFFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -47,7 +56,7 @@ public class AboutFragment extends Fragment {
         return fragment;
     }
 
-    public AboutFragment() {
+    public PDFFragment() {
         // Required empty public constructor
     }
 
@@ -64,7 +73,35 @@ public class AboutFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_about, container, false);
+        String pdfUrl = getArguments().getString("URL");
+        View view = inflater.inflate(R.layout.fragment_pdf, container, false);
+        manager = getFragmentManager();
+        close = (Button)view.findViewById(R.id.close_button);
+        close.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                manager.popBackStack();
+            }
+        });
+        view.setFocusableInTouchMode(true);
+        view.requestFocus();
+        view.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+                if( keyCode == KeyEvent.KEYCODE_BACK ) {
+                    manager.popBackStack();
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        });
+        WebView wv = (WebView)view.findViewById(R.id.pdf_viewer);
+        wv.getSettings().setJavaScriptEnabled(true);
+        //wv.getSettings().setPluginsEnabled(true);
+        //wv.loadUrl("https://docs.google.com/gview?embedded=true&url=http://cabinet.portal.gov.bd/sites/default/files/files/cabinet.portal.gov.bd/page/4bd5ab63_5238_405c_80a1_9f026a4a0aca/Receive%20of%20Informatin_Rules.pdf");
+        wv.loadUrl(pdfUrl);
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event

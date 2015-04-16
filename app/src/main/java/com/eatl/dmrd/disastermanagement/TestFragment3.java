@@ -1,4 +1,4 @@
-package com.gov.dmrd.disastermanagement;
+package com.eatl.dmrd.disastermanagement;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -11,6 +11,8 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
+
+import com.eatl.dmrd.disastermanagement.R;
 
 
 /**

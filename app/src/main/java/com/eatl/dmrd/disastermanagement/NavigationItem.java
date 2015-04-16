@@ -1,4 +1,4 @@
-package com.gov.dmrd.disastermanagement;
+package com.eatl.dmrd.disastermanagement;
 
 /**
  * Created by Lewis on 24/08/2014.

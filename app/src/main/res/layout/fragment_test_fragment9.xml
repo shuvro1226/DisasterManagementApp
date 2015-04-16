@@ -5,6 +5,6 @@
     android:id="@+id/e_library"
     android:orientation="vertical"
     android:layout_margin="10dp"
-    tools:context="com.gov.dmrd.disastermanagement.TestFragment9">
+    tools:context="com.eatl.dmrd.disastermanagement.TestFragment9">
 
 </LinearLayout>

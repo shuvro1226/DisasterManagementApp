@@ -1,7 +1,7 @@
-package com.gov.dmrd.disastermanagement.adapter;
+package com.eatl.dmrd.disastermanagement.adapter;
 
-import com.gov.dmrd.disastermanagement.R;
-import com.gov.dmrd.disastermanagement.model.NavDrawerItem;
+import com.eatl.dmrd.disastermanagement.R;
+import com.eatl.dmrd.disastermanagement.model.NavDrawerItem;
 
 import java.util.ArrayList;
 

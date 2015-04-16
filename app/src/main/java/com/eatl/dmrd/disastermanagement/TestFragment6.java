@@ -1,4 +1,4 @@
-package com.gov.dmrd.disastermanagement;
+package com.eatl.dmrd.disastermanagement;
 
 import android.app.Activity;
 import android.app.FragmentManager;
@@ -10,16 +10,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import com.eatl.dmrd.disastermanagement.R;
+
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link TestFragment5.OnFragmentInteractionListener} interface
+ * {@link TestFragment6.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link TestFragment5#newInstance} factory method to
+ * Use the {@link TestFragment6#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class TestFragment5 extends Fragment {
+public class TestFragment6 extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -29,8 +31,8 @@ public class TestFragment5 extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    FragmentManager manager;
     Fragment mFragment;
+    FragmentManager manager;
     Bundle args;
 
     private OnFragmentInteractionListener mListener;
@@ -41,11 +43,11 @@ public class TestFragment5 extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment TestFragment5.
+     * @return A new instance of fragment TestFragment6.
      */
     // TODO: Rename and change types and number of parameters
-    public static TestFragment5 newInstance(String param1, String param2) {
-        TestFragment5 fragment = new TestFragment5();
+    public static TestFragment6 newInstance(String param1, String param2) {
+        TestFragment6 fragment = new TestFragment6();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -53,7 +55,7 @@ public class TestFragment5 extends Fragment {
         return fragment;
     }
 
-    public TestFragment5() {
+    public TestFragment6() {
         // Required empty public constructor
     }
 
@@ -70,7 +72,7 @@ public class TestFragment5 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_test_fragment5, container, false);
+        View view = inflater.inflate(R.layout.fragment_test_fragment6, container, false);
         manager = getFragmentManager();
         mFragment = new PDFFragment();
         args = new Bundle();
@@ -78,7 +80,7 @@ public class TestFragment5 extends Fragment {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                args.putString("URL", "https://docs.google.com/gview?embedded=true&url=http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/policies/051e98a7_33a1_4736_ab30_5d1dca5a9875/Humanitarian%20Assistance0001.pdf");
+                args.putString("URL", "https://docs.google.com/gview?embedded=true&url=http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/files/3718513e_978d_4454_91a2_ab791e2976e6/ecrrp%20(1).pdf");
                 mFragment.setArguments(args);
                 manager.beginTransaction().replace(R.id.content_frame, mFragment).addToBackStack(mFragment.toString()).commit();
             }
@@ -87,7 +89,7 @@ public class TestFragment5 extends Fragment {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                args.putString("URL", "https://docs.google.com/gview?embedded=true&url=http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/page/898dac54_302e_42d6_8604_a76b09482dda/667.pdf");
+                args.putString("URL", "https://docs.google.com/gview?embedded=true&url=http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/files/c1536a9f_c357_4844_8239_edc5f3de3b56/flood%20selter.pdf");
                 mFragment.setArguments(args);
                 manager.beginTransaction().replace(R.id.content_frame, mFragment).addToBackStack(mFragment.toString()).commit();
             }
@@ -96,7 +98,7 @@ public class TestFragment5 extends Fragment {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                args.putString("URL", "https://drive.google.com/file/d/0B5C7CK0fyNrMRS0zMUcwSm5yTnhlR3ExTExma1hFTF9SMHlr/edit?usp=sharing");
+                args.putString("URL", "https://docs.google.com/gview?embedded=true&url=http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/files/6e86478a_bdd3_471b_b7e9_5f09d4b3fe56/Bangladesh-PROSHAR.pdf");
                 mFragment.setArguments(args);
                 manager.beginTransaction().replace(R.id.content_frame, mFragment).addToBackStack(mFragment.toString()).commit();
             }
@@ -105,7 +107,7 @@ public class TestFragment5 extends Fragment {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                args.putString("URL", "https://drive.google.com/file/d/0B5C7CK0fyNrMWThRVG0xMnJNbElRRkJvSVE0REUwM3AyYW93/edit?usp=sharing");
+                args.putString("URL", "https://docs.google.com/gview?embedded=true&url=http://modmr.portal.gov.bd/sites/default/files/files/modmr.portal.gov.bd/files/bbe0a3f2_1fcd_4882_90bb_6c7a035664bf/NOBOJIBON.pdf");
                 mFragment.setArguments(args);
                 manager.beginTransaction().replace(R.id.content_frame, mFragment).addToBackStack(mFragment.toString()).commit();
             }

@@ -1,12 +1,13 @@
-package com.gov.dmrd.disastermanagement;
+package com.eatl.dmrd.disastermanagement;
 
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.Window;
 import android.widget.ImageView;
+
+import com.eatl.dmrd.disastermanagement.R;
 
 public class SplashScreenActivity extends Activity {
 

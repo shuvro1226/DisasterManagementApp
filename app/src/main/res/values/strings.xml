@@ -52,7 +52,7 @@
         <item>প্রকাশনাসমূহ</item>
         <item>সংস্থা ও কর্মসূচি</item>
         <item>ই-লাইব্রেরী</item>
-        <item>কার্যালয় দেখুন</item>
+        <!--item>কার্যালয় দেখুন</item-->
         <item>আমাদের সম্পর্কে</item>
     </string-array>
 
@@ -68,9 +68,11 @@
         <item>@drawable/ic_add_list</item>
         <item>@drawable/ic_add_list</item>
         <item>@drawable/ic_add_list</item>
-        <item>@drawable/ic_add_list</item>
+        <!--item>@drawable/ic_add_list</item-->
     </array>
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_my_map">MyMapActivity</string>
 </resources>

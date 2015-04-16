@@ -1,4 +1,4 @@
-package com.gov.dmrd.disastermanagement;
+package com.eatl.dmrd.disastermanagement;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -14,6 +14,8 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.eatl.dmrd.disastermanagement.R;
 
 
 /**
@@ -120,7 +122,7 @@ public class TestFragment4 extends Fragment {
             params1.setMargins(0,0,margin,0);
             ImageButton btn = new ImageButton(getActivity());
             btn.setImageResource(R.drawable.pdf_icon);
-            btn.setBackgroundDrawable(getResources().getDrawable(R.drawable.textview_bg));
+            btn.setBackgroundDrawable(getResources().getDrawable(R.drawable.pdf_button));
             btn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
